@@ -22,7 +22,7 @@ Contents:
 
 * newsapi-python == 0.2.5
 * newspaper3k == 0.2.5
-* python-telegram-bot == 12.0.0b1
+* python-telegram-bot == 12.1.1
 
 # 3. Setup
 
@@ -41,6 +41,11 @@ KEY = 'key'  # insert your newsapi key here
 
 # 4. Usage
 
+### Demo
+
+<img src="https://github.com/ahthon/jolt-telegram-news-bot/blob/master/jolt_demo.gif" alt="Jolt demo" height="450" align="center">
+
+### Commands
 Jolt uses slash commands to execute tasks.
 
 * `/start` sends the news bulletin.
