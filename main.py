@@ -67,7 +67,7 @@ def start(update, context):
                 [InlineKeyboardButton('Read 3', callback_data='3'),
                  InlineKeyboardButton('Read 4', callback_data='4')],
                 [InlineKeyboardButton('Read 5', callback_data='5'),
-                 InlineKeyboardButton('About', url='http://google.com')]]
+                 InlineKeyboardButton('About', url='https://github.com/ahthon/jolt-telegram-news-bot')]]
 
     context.bot.send_message(chat_id=update.message.chat.id,
                              text=message,
