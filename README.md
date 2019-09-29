@@ -16,14 +16,13 @@ Contents:
 
 # 1. Introduction
 
-Jolt is a Telegram bot for users to read Singapore news and to create their own personal news bulletins.
+[Prototype] Jolt is a Telegram bot for users to read Singapore news and to create their own personal news bulletins.
 
 # 2. Requirements
 
 * newsapi-python == 0.2.5
 * newspaper3k == 0.2.5
-* python\_telegram\_bot == 12.0.0b1
-
+* python-telegram-bot == 12.0.0b1
 
 # 3. Setup
 
@@ -52,10 +51,10 @@ Jolt uses slash commands to execute tasks.
 
 Jolt uses [inline keyboards](https://core.telegram.org/bots/2-0-intro#new-inline-keyboards) to build its menus.
 
-##### Main menu
+#### Main menu
 The main menu presents the user with a list of five of the top headlines for Singapore news from newsapi.org.
 
-##### Sub-menu
+#### Sub-menu
 Clicking to read the story from the bulletin's main menu shows the individual news stories that have been summarised using newspaper3k. 
 
 Users may also:
